@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1004" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DataDict" representedClassName="DataDict" syncable="YES" codeGenerationType="class">
+        <attribute name="dict" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="IAP" representedClassName="IAP" syncable="YES" codeGenerationType="class">
+        <attribute name="orderid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SportData" representedClassName="SportData" syncable="YES" codeGenerationType="class">
+        <attribute name="datadict" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DataDict" positionX="-54" positionY="-9" width="128" height="60"/>
+        <element name="IAP" positionX="-54" positionY="9" width="128" height="90"/>
+        <element name="SportData" positionX="-54" positionY="0" width="128" height="75"/>
+    </elements>
+</model>

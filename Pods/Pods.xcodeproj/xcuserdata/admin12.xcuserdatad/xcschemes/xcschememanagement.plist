@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-VEQTA.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-VEQTATests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-VEQTAUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YSLContainerViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>217EC86AE84922013CAD348AADF509EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>59111F8718E15226AFEC305DCE6136B4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85ADC68212988533BA7738C14AA45A28</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87B325AF92C70EF42416A7AE0F8313EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

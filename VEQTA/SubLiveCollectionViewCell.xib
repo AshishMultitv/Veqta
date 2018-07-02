@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+        <array key="Ubuntu-R.ttf">
+            <string>Ubuntu</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SubLiveCollectionViewCell" id="gTV-IL-0wX" customClass="SubLiveCollectionViewCell" customModule="VEQTA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="145" height="105"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="145" height="105"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thumbnailPlaceHolder" translatesAutoresizingMaskIntoConstraints="NO" id="xc1-oZ-o2b">
+                        <rect key="frame" x="0.0" y="0.0" width="145" height="82.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="xc1-oZ-o2b" secondAttribute="height" multiplier="145:82" id="3t8-et-kkk"/>
+                            <constraint firstAttribute="height" constant="82.5" id="p2w-Ec-Krk"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rogers vs Nadal round 10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXz-Gv-SGl">
+                        <rect key="frame" x="5" y="83" width="135" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="BFw-YY-zyz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Ubuntu" family="Ubuntu" pointSize="11"/>
+                        <color key="textColor" red="0.73725490199999999" green="0.73725490199999999" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UKl-LR-TTe">
+                        <rect key="frame" x="2" y="2" width="50" height="15"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="Qte-PN-N0a"/>
+                            <constraint firstAttribute="width" constant="50" id="ZP3-6m-GME"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DIp-IZ-dz7">
+                        <rect key="frame" x="57" y="65" width="83" height="15"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="83" id="HSh-S8-V1d"/>
+                            <constraint firstAttribute="height" constant="15" id="cF7-NK-yF9"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upcoming" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UrZ-gX-KRH">
+                        <rect key="frame" x="4" y="4" width="45" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="0pN-s7-mfN"/>
+                            <constraint firstAttribute="height" constant="10" id="3SL-qm-cTS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="8"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25 March 10:00AM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QnB-eT-MT7">
+                        <rect key="frame" x="58" y="64" width="82" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="344-qG-Ypj"/>
+                            <constraint firstAttribute="width" constant="82" id="Gmb-1o-1eP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="7"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="NXz-Gv-SGl" secondAttribute="trailing" constant="5" id="1At-nc-5Xk"/>
+                <constraint firstItem="NXz-Gv-SGl" firstAttribute="top" secondItem="xc1-oZ-o2b" secondAttribute="bottom" constant="0.5" id="2DI-bM-4to"/>
+                <constraint firstItem="NXz-Gv-SGl" firstAttribute="top" secondItem="QnB-eT-MT7" secondAttribute="bottom" constant="2" id="2Jq-OS-o9G"/>
+                <constraint firstItem="UrZ-gX-KRH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="9YT-SP-3BK"/>
+                <constraint firstAttribute="trailing" secondItem="xc1-oZ-o2b" secondAttribute="trailing" id="ERI-uZ-gQ8"/>
+                <constraint firstItem="NXz-Gv-SGl" firstAttribute="top" secondItem="DIp-IZ-dz7" secondAttribute="bottom" constant="3" id="ET6-91-HvR"/>
+                <constraint firstAttribute="trailing" secondItem="QnB-eT-MT7" secondAttribute="trailing" constant="5" id="Gs2-XX-EcE"/>
+                <constraint firstAttribute="trailing" secondItem="DIp-IZ-dz7" secondAttribute="trailing" constant="5" id="KCv-8b-tTc"/>
+                <constraint firstItem="UrZ-gX-KRH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="Vaa-64-65V"/>
+                <constraint firstItem="NXz-Gv-SGl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="fLm-uO-oJx"/>
+                <constraint firstItem="xc1-oZ-o2b" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="gzO-1E-dRA"/>
+                <constraint firstItem="UKl-LR-TTe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="2" id="mY4-Rz-M1g"/>
+                <constraint firstItem="UKl-LR-TTe" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="2" id="rvb-E1-Ylc"/>
+                <constraint firstItem="xc1-oZ-o2b" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="vSu-Xu-Rxb"/>
+            </constraints>
+            <size key="customSize" width="114" height="96"/>
+            <connections>
+                <outlet property="Upcominglabel" destination="UrZ-gX-KRH" id="sXQ-UE-aKc"/>
+                <outlet property="bgView" destination="UKl-LR-TTe" id="TH0-kt-87X"/>
+                <outlet property="headingLbl" destination="NXz-Gv-SGl" id="jFB-nB-OB7"/>
+                <outlet property="logoImgView" destination="xc1-oZ-o2b" id="dPr-r1-HEK"/>
+                <outlet property="timeBgView" destination="DIp-IZ-dz7" id="EiC-kw-mOh"/>
+                <outlet property="timeLbl" destination="QnB-eT-MT7" id="Eos-UA-fqV"/>
+            </connections>
+            <point key="canvasLocation" x="57" y="75"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="thumbnailPlaceHolder" width="95" height="160"/>
+    </resources>
+</document>

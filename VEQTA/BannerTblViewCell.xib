@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-M.ttf">
+            <string>Ubuntu-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="bannerTblCell" rowHeight="220" id="KGk-i7-Jjw" customClass="BannerTblViewCell" customModule="VEQTA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="219"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sc6-lf-KwC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNN-Pl-Bww">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zNN-Pl-Bww" secondAttribute="height" multiplier="16:9" id="gqM-U5-Fc3"/>
+                                    <constraint firstAttribute="height" constant="180" id="urI-HS-4M2"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="KGk-i7-Jjw" id="tGG-lR-vGZ"/>
+                                </connections>
+                            </scrollView>
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4k3-jM-Bwf">
+                                <rect key="frame" x="0.0" y="138" width="320" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" translatesAutoresizingMaskIntoConstraints="NO" id="2gY-6p-Vlf">
+                                <rect key="frame" x="261" y="175" width="39" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="39" id="dkn-ZO-v7d"/>
+                                    <constraint firstAttribute="height" constant="37" id="iXP-Q7-dgw"/>
+                                </constraints>
+                                <color key="pageIndicatorTintColor" red="0.73725490199999999" green="0.73725490199999999" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.97254901959999995" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="WRC MEXICO HEIGHLIGHTdsd s" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xfg-rh-z3m">
+                                <rect key="frame" x="10" y="181" width="233" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="13" id="zzq-le-oyT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="16"/>
+                                <color key="textColor" red="0.73725490196078436" green="0.73725490196078436" blue="0.73725490196078436" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2gY-6p-Vlf" firstAttribute="top" secondItem="zNN-Pl-Bww" secondAttribute="bottom" constant="-5" id="2jq-Bm-ixj"/>
+                            <constraint firstItem="xfg-rh-z3m" firstAttribute="leading" secondItem="sc6-lf-KwC" secondAttribute="leading" constant="10" id="Pts-uK-Mha"/>
+                            <constraint firstAttribute="trailing" secondItem="zNN-Pl-Bww" secondAttribute="trailing" id="joS-ND-xpz"/>
+                            <constraint firstItem="2gY-6p-Vlf" firstAttribute="leading" secondItem="xfg-rh-z3m" secondAttribute="trailing" constant="18" id="kt1-bX-nxl"/>
+                            <constraint firstItem="xfg-rh-z3m" firstAttribute="top" secondItem="zNN-Pl-Bww" secondAttribute="bottom" constant="1.5" id="tTF-ka-ftt"/>
+                            <constraint firstAttribute="trailing" secondItem="2gY-6p-Vlf" secondAttribute="trailing" constant="20" id="vDN-vc-EVq"/>
+                            <constraint firstItem="zNN-Pl-Bww" firstAttribute="leading" secondItem="sc6-lf-KwC" secondAttribute="leading" id="wsg-vm-lRz"/>
+                            <constraint firstItem="zNN-Pl-Bww" firstAttribute="top" secondItem="sc6-lf-KwC" secondAttribute="top" id="ywQ-Yj-Rr9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="sc6-lf-KwC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="AbC-d4-8md"/>
+                    <constraint firstItem="sc6-lf-KwC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="F4G-nx-f9m"/>
+                    <constraint firstAttribute="bottom" secondItem="sc6-lf-KwC" secondAttribute="bottom" constant="-1" id="ps0-Xb-wvl"/>
+                    <constraint firstAttribute="trailing" secondItem="sc6-lf-KwC" secondAttribute="trailing" id="zRD-td-Map"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="alphaViews" destination="4k3-jM-Bwf" id="tk7-RW-rFh"/>
+                <outlet property="headingLbl" destination="xfg-rh-z3m" id="4IH-rc-DOI"/>
+                <outlet property="pageControl" destination="2gY-6p-Vlf" id="25c-bk-0c6"/>
+                <outlet property="showSlider" destination="zNN-Pl-Bww" id="34P-BT-yF3"/>
+            </connections>
+            <point key="canvasLocation" x="-118" y="59"/>
+        </tableViewCell>
+    </objects>
+</document>

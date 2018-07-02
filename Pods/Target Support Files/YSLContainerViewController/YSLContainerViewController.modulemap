@@ -1,0 +1,6 @@
+framework module YSLContainerViewController {
+  umbrella header "YSLContainerViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
