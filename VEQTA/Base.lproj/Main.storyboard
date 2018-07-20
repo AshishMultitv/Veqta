@@ -1080,7 +1080,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" hsdhds sdhds hs  shds hs dds  sdhhds h dsh sdhhshds" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MfR-Bp-2hf">
-                                                    <rect key="frame" x="2" y="175" width="306" height="40"/>
+                                                    <rect key="frame" x="2" y="175" width="317" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="Sv1-9d-gDf"/>
                                                     </constraints>
@@ -1097,7 +1097,7 @@
                                                     </constraints>
                                                 </view>
                                                 <view alpha="0.69999999999999996" tag="105" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ePC-SD-t5E">
-                                                    <rect key="frame" x="218" y="150" width="89" height="20"/>
+                                                    <rect key="frame" x="229" y="150" width="89" height="20"/>
                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="89" id="eF0-EI-xfK"/>
@@ -1115,7 +1115,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="29 aug 2017 10:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyM-I3-Lbo">
-                                                    <rect key="frame" x="221" y="150" width="83" height="20"/>
+                                                    <rect key="frame" x="232" y="150" width="83" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="6Nc-nB-LLr"/>
                                                         <constraint firstAttribute="width" constant="83" id="ksT-41-zzS"/>
@@ -4451,8 +4451,8 @@
         <segue reference="EdG-CC-L1F"/>
         <segue reference="uhb-IT-p6j"/>
         <segue reference="8Ld-XG-w7o"/>
-        <segue reference="amC-ln-ghs"/>
-        <segue reference="GCG-VC-qBF"/>
+        <segue reference="D2O-Vd-qtd"/>
+        <segue reference="yoi-qw-PZp"/>
         <segue reference="nV3-L4-bxQ"/>
         <segue reference="nG5-wB-ZL0"/>
         <segue reference="0KO-av-EoM"/>

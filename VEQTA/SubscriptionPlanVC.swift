@@ -132,11 +132,7 @@ class SubscriptionPlanVC: UIViewController,UICollectionViewDelegate,UICollection
         attributedString.setAttributes(linkAttributes, range:NSRange(location:683,length:13))
         attributedString.setAttributes(linkAttributes1, range:NSRange(location:700,length:14))
         attributetextview.attributedText = attributedString
-
-        
-        
-        
-
+ 
     }
     
     
